@@ -32,6 +32,17 @@
       "image": "https://img.magnific.com/premium-vector/business-man-avatar-profile_1133257-2431.jpg?semt=ais_hybrid&w=740&q=80",
       "date": "7/5/2026",
       "id": "9WfkSK0DIiY"
+    },
+    {
+      "name": "vijay",
+      "email": "vijay@gmail.com",
+      "phone": "987654567",
+      "department": "Developer",
+      "salary": "760000",
+      "status": "Active",
+      "image": "https://img.magnific.com/premium-vector/business-man-avatar-profile_1133257-2431.jpg?semt=ais_hybrid&w=740&q=80",
+      "date": "7/6/2026",
+      "id": "FTSoqv3lGvI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
