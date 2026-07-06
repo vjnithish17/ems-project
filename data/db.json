@@ -1,0 +1,38 @@
+{
+  "employee": [
+    {
+      "name": "Nithish",
+      "email": "vjnithi@gmail.com",
+      "phone": "782134679",
+      "department": "Design",
+      "salary": "65000",
+      "status": "Active",
+      "image": "https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001882.png",
+      "date": "7/2/2026",
+      "id": "1mf0-4JIYP8"
+    },
+    {
+      "name": "Raju",
+      "email": "raju@gmail.com",
+      "phone": "834567654",
+      "department": "Developer",
+      "salary": "35000",
+      "status": "Inactive",
+      "image": "https://img.magnific.com/premium-vector/business-man-avatar-profile_1133257-2431.jpg?semt=ais_hybrid&w=740&q=80",
+      "date": "7/3/2026",
+      "id": "KEKFY2oqChU"
+    },
+    {
+      "name": "binky",
+      "email": "binky23@gmail.com",
+      "phone": "890243232",
+      "department": "Design",
+      "salary": "100000",
+      "status": "Active",
+      "image": "https://img.magnific.com/premium-vector/business-man-avatar-profile_1133257-2431.jpg?semt=ais_hybrid&w=740&q=80",
+      "date": "7/5/2026",
+      "id": "9WfkSK0DIiY"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
