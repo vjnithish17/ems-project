@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
+import {  useParams } from 'react-router-dom'
 
 const Editemployee = ({employee,setEmployee,employees,getEmployees,handleedit,handleChange}) => {
   const {id}=useParams()
 
-  const navigate=useNavigate();
+  // const navigate=useNavigate();
 
   useEffect(() => {
     const emp = employees.find((emp) => emp.id === id);

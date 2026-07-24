@@ -15,6 +15,7 @@ const EmployeeDetail = (props) => {
             <div className="employee-header">
               <img
                 src={employee.image}
+                 alt={employee.name || "Employee"}
                 onError={(e) => {
                   e.target.src = defaultimg;
                 }}
