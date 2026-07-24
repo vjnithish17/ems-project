@@ -4,11 +4,11 @@ A React-based Employee Management System that allows users to manage employee re
 
 ##  Live Demo
 
-**https://ems-project-54o5.vercel.app**
+   https://ems-project-54o5.vercel.app
 
-##  GitHub Repository
+## GitHub Repository
 
-**https://github.com/vjnithish17/EMS-project**
+  https://github.com/vjnithish17/EMS-project
 
 ##  Features
 
@@ -27,7 +27,11 @@ A React-based Employee Management System that allows users to manage employee re
 - JSON Server / REST API
 - CSS3
 
-## Installation
+##  Screenshot
+
+![EMS Screenshot](./screenshot.png)
+
+##  Installation
 
 ```bash
 git clone https://github.com/vjnithish17/EMS-project.git
@@ -35,12 +39,10 @@ cd EMS-project
 npm install
 npm start
 ```
-## Screenshot
 
-![EMS Screenshot](./image.png)
+##  Author
 
-## Author
-
-**Nithish E**
+**Nithyasundharam E**
 
 - GitHub: https://github.com/vjnithish17
+- Portfolio: https://nithish-plum.vercel.app
