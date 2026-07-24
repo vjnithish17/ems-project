@@ -12,7 +12,7 @@ const Editemployee = ({employee,setEmployee,employees,getEmployees,handleedit,ha
     if (emp) {
       setEmployee(emp);
     }
-  }, [employees, id]);
+  }, [employees, id,setEmployee]);
 
   return (
         <div className="add-container">
