@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+  /* border: 1px solid red; */
 }
 
 /* Dashboard */
@@ -55,10 +56,6 @@
   margin: 30px auto;
 }
 
-.employee-list h1 {
-  margin-bottom: 20px;
-}
-
 .top-bar {
   display: flex;
   gap: 15px;
@@ -67,58 +64,105 @@
 }
 
 .top-bar input {
-  width: 320px;
+  flex: 1;
+  min-width: 250px;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-size: 16px;
 }
 
 .top-bar select {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  font-size: 16px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 10px;
 }
 
 table {
   width: 100%;
+  min-width: 900px;
   border-collapse: collapse;
+  background: #fff;
 }
 
-th {
-  background: #2563eb;
-  color: white;
-  padding: 12px;
-}
-
+th,
 td {
   padding: 12px;
   text-align: center;
-  border-bottom: 1px solid #ddd;
+  white-space: nowrap;
 }
 
-tr:hover {
-  background: #f5f5f5;
-}
-
-.profile-img {
-  width: 60px;
-  height: 60px;
+td img {
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.view-btn {
-  background: #2563eb;
-  color: white;
+.view a {
+  color: #2563eb;
   text-decoration: none;
-  padding: 8px 15px;
-  border-radius: 6px;
+  font-weight: 500;
 }
 
-.view-btn:hover {
-  background: #1d4ed8;
+.view a:hover {
+  text-decoration: underline;
+}
+/* ---------------- Employee List Responsive ---------------- */
+
+@media (max-width: 768px) {
+
+  .employee-list {
+    width: 100%;
+    padding: 15px;
+    margin: 15px auto;
+  }
+
+  .employee-list h1 {
+    text-align: center;
+    font-size: 24px;
+  }
+
+  .top-bar {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .top-bar input,
+  .top-bar select {
+    width: 100%;
+    min-width: 100%;
+    font-size: 15px;
+  }
+
+  .table-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  table {
+    min-width: 900px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  td img {
+    width: 45px;
+    height: 45px;
+  }
+
+  .view a {
+    font-size: 14px;
+  }
 }
 
 /*------------------- Add emplyoo------------- */
@@ -558,3 +602,56 @@ span {
   text-decoration: underline;
 }
 
+/* ---------------- Add Employee Responsive ---------------- */
+
+@media (max-width: 768px) {
+
+  .add-container {
+    width: 95%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+  }
+
+  .add-container h2 {
+    font-size: 24px;
+    margin-bottom: 18px;
+  }
+
+  .add-container form {
+    gap: 12px;
+  }
+
+  .add-container input,
+  .add-container select {
+    width: 100%;
+    font-size: 15px;
+    padding: 12px;
+  }
+
+  .add-container button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .add-container {
+    width: 100%;
+    padding: 15px;
+    box-shadow: none;
+  }
+
+  .add-container h2 {
+    font-size: 22px;
+  }
+
+  .add-container input,
+  .add-container select,
+  .add-container button {
+    font-size: 14px;
+    padding: 11px;
+  }
+}

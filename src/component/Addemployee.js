@@ -7,6 +7,7 @@ function Addemployee({
 
 
   return (
+    
     <div className="add-container">
       <h2>Add Employee</h2>
 
@@ -73,9 +74,7 @@ function Addemployee({
           <option>Active</option>
           <option >Inactive</option>
         </select>
-
         <button type="submit">Add Employee</button>
-
       </form>
     </div>
   );

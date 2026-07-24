@@ -12,7 +12,7 @@ function Employeelist({
   setStatus,
   isLoading,
   fetchError,
-})
+}) 
 {
   if (isLoading) {
 
@@ -50,7 +50,8 @@ function Employeelist({
           <option value="Inactive">Inactive</option>
         </select>
       </div>
-      <table border="1" cellPadding="10" width="100%">
+      <div className="table-container">
+              <table border="1" cellPadding="10">
         <thead>
           <tr>
             <th>ID</th>
@@ -103,6 +104,8 @@ function Employeelist({
           )}
         </tbody>
       </table>
+      </div>
+
     </div>
   );
 }
