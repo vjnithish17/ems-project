@@ -35,6 +35,9 @@ cd EMS-project
 npm install
 npm start
 ```
+## 📸 Screenshot
+
+![EMS Screenshot](./image.png)
 
 ## Author
 
