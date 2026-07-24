@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 function Addemployee({
   employee,
   handleChange,
@@ -7,7 +7,7 @@ function Addemployee({
 
 
   return (
-    
+
     <div className="add-container">
       <h2>Add Employee</h2>
 
